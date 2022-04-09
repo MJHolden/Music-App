@@ -3,7 +3,7 @@ import { FaPlay, FaPause, FaForward, FaBackward } from "react-icons/fa";
 import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
 import { music } from "../tracklist.js";
 import "./Controls.css";
-import { useState } from "react";
+//import { useState } from "react";
 
 function Controls({
   isPlaying,
