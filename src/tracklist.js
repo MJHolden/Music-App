@@ -13,7 +13,6 @@ import infiniteImg from "/Users/bigroshi/music-app/src/covers/montroyal.jpeg";
 import keemImg from "/Users/bigroshi/music-app/src/covers/BKeem.png";
 import snohImg from "/Users/bigroshi/music-app/src/covers/Snoh.jpeg";
 
-
 export const music = [
   {
     song: "Out Of Time",
