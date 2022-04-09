@@ -1,0 +1,16 @@
+.random-btn {
+  display: block;
+  margin: 10px auto 15px;
+}
+
+.play-btn {
+  height: 65px;
+  width: 65px;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.volume-ctrl {
+  display: block;
+  margin: 10px auto 0px;
+}
