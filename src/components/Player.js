@@ -1,4 +1,4 @@
-import { music } from "../tracklist";
+import { music } from "./tracklistArr";
 import Howler from "react-howler";
 import { MdExplicit } from "react-icons/md";
 
@@ -7,7 +7,7 @@ function Player({ currentSongIndex, isPlaying }) {
     <>
       <Howler src={music[currentSongIndex].src} playing={isPlaying} />
       <h1>Roshi Music</h1>
-      <img src={music[currentSongIndex].image}></img>
+      <img alt="" src={music[currentSongIndex].image}></img>
       <br></br>
       <br></br>
       <h1>

@@ -1,7 +1,7 @@
-import { music } from "../tracklist.js";
+import { music } from "./tracklistArr.js";
 import clsx from "clsx";
 import "./Tracklist.css";
-import { FaMusic, FaPlay } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa";
 
 function Tracklist({
   isTracklistShowing,

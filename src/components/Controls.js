@@ -1,7 +1,7 @@
 // icons
 import { FaPlay, FaPause, FaForward, FaBackward } from "react-icons/fa";
 import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
-import { music } from "../tracklist.js";
+import { music } from "./tracklistArr.js";
 import "./Controls.css";
 import { useState } from "react";
 
@@ -11,7 +11,7 @@ function Controls({
   setIsPlaying,
   setCurrentSongIndex,
 }) {
-  const [volume, setVolume] = useState(1);
+  //const [volume, setVolume] = useState(1);
 
   const handlePlayClick = () => {
     setIsPlaying(!isPlaying);
