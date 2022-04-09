@@ -1,4 +1,4 @@
-import { music } from "./tracklistArr";
+import { music } from "./tracklist";
 import Howler from "react-howler";
 import { MdExplicit } from "react-icons/md";
 
