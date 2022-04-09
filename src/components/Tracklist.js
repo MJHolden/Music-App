@@ -1,4 +1,4 @@
-import { music } from "./tracklist.js";
+import { music } from "../tracklist.js";
 import clsx from "clsx";
 import "./Tracklist.css";
 import { FaMusic } from "react-icons/fa";
